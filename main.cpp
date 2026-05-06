@@ -103,15 +103,15 @@ void algoritmoMatch(char nombres[][20], int edad[], int espiritualidad[], float 
     int puntajes[31] = {0}; // Guardaremos los puntos de cada persona
 
     // Diccionarios para imprimir los perfiles ganadores
-    const char *Espiritualidad[] = {"", "Sí es importante", "No es importante", "Me es irrelevante"};
-    const char *Escuela[] = {"", "Ingeniería", "Negocios y Economía", "Ciencias", "Artes y Humanidades", "Ciencias sociales"};
-    const char *Hobby[] = {"", "Aficiones de interior", "Actividades deportivas", "Vida nocturna", "Sí a todo"};
-    const char *Personalidad[] = {"", "Introvertido", "Ambivertido", "Extrovertido"};
-    const char *Psexual[] = {"", "Chico", "Chica", "Irrelevante"};
-    const char *Genero[] = {"", "Hombre", "Mujer", "No binario"};
-    const char *Chilaquiles[] = {"", "Rojos", "Verdes", "Bandera", "No me gustan"};
-    const char *Mascotas[] = {"", "Muy importante", "Me da igual", "No puedo / No me gustan"};
-    const char *Vida[] = {"", "Éxito deportivo", "Formar una familia", "Éxito profesional"};
+    char Espiritualidad[] = {"", "Sí es importante", "No es importante", "Me es irrelevante"};
+    char Escuela[] = {"", "Ingeniería", "Negocios y Economía", "Ciencias", "Artes y Humanidades", "Ciencias sociales"};
+    char Hobby[] = {"", "Aficiones de interior", "Actividades deportivas", "Vida nocturna", "Sí a todo"};
+    char Personalidad[] = {"", "Introvertido", "Ambivertido", "Extrovertido"};
+    char Psexual[] = {"", "Chico", "Chica", "Irrelevante"};
+    char Genero[] = {"", "Hombre", "Mujer", "No binario"};
+    char Chilaquiles[] = {"", "Rojos", "Verdes", "Bandera", "No me gustan"};
+    char Mascotas[] = {"", "Muy importante", "Me da igual", "No puedo / No me gustan"};
+    char Vida[] = {"", "Éxito deportivo", "Formar una familia", "Éxito profesional"};
 
     // --- CAPTURA DE DATOS DEL USUARIO ---
     printf("\n--- CONFIGURA TU PERFIL ---");
